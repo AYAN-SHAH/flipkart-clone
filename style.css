@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+header .container {
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 23px;
+    margin: 17px 1vw 17px 15vw;
+
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box form input {
+    height: 35px;
+    width: 26vw;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0 1px 2px gray;
+}
+
+.upper-btn {
+    position: relative;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    right: 34px;
+    height: 35px;
+    width: 3vw;
+}
+
+.fa-search {
+    color: #2874f0;
+    font-size: medium;
+}
+
+.login-butn {
+    background-color: white;
+    border: none;
+    padding: 7px 4vw;
+    margin-left: 1vw;
+    color: #2874f0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    display: none;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 2vw;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+@media only screen and (max-width:600px) {
+    .none {
+        display: none;
+    }
+
+    .search-box {
+        
+        width:100vw;
+        order: 4;
+    }
+
+    header div {
+ 
+        flex-wrap: wrap;
+
+    }
+
+    .login {
+        display: block;
+    }
+
+}
